@@ -1,0 +1,125 @@
+          
+			.div1{
+				
+				width: 100%;
+			}
+			.div2{
+				max-width: 1280px;
+				width: 98%;
+				text-align: right;
+				line-height: 35px;
+				color: #999999;
+				font-size: 16px;
+				margin: auto;
+				white-space: nowrap;
+				overflow: hidden;
+				text-overflow: ellipsis;			
+			}
+			.div2 li a:hover{
+				color: #81a849;							
+			}        
+			.div2 li {
+				display: inline;							
+				text-decoration: none;
+				color: gray;
+			}
+			.div2 li a{
+				color: gray;		
+				text-decoration: none;
+				display: inline;
+			}
+			.div2 ul{
+				margin-top: 5px;
+			}
+			#syzz{
+				color: #81a849;
+			}
+			
+			
+			.div3{
+				width: 100%;
+				background: url(../img/top_bg.png) no-repeat;
+				overflow: hidden;
+			}
+			.div3-1{
+				max-width: 1440px;
+				width: 98%;
+				margin: auto;
+				text-align: center;
+				color: #666666;
+				font-size: 16px;
+				line-height: 24px;
+				background: url(../images/xie_xian.png) repeat-x bottom;
+				padding-bottom: 10px;
+			}
+			.div3-2{
+				text-align: center;
+				margin: 60px auto 30px;				
+			}
+			.div3-3>p{
+				font-size: 17px;
+				margin-bottom: 50px;
+			}
+			
+			.span1>a{
+				font-size: 35px;
+				font-family: fixedsys;
+				color: #81a849;
+				font-weight: bold;	
+				text-decoration: none;
+			}
+			.span2{
+				font-family: arial;
+				color: #b2b2b2;
+				font-size: 12px;
+				}
+				
+			.jqgt{
+				margin-top: 35px;
+				margin-bottom: 50px;
+			}
+			
+			.jqgt .xia_x{
+				margin-top: 40px;
+				text-align: center;
+			}
+				
+			.jqgt .row .col-md-4 img{
+				width: 450px;
+				height: 180px;
+			}	
+				
+			.jqgt .row .col-md-4 img:hover{
+				animation: op 50s ease infinite;
+			}	
+			
+			@keyframes op{
+				0%{}
+				1%{transform: scale(1.1)}				
+			}
+			
+			.jqgt .col-md-4 {
+				padding: 0;		
+			}
+			
+			.hzhb{
+				width: 1320px;
+				margin: auto;
+			}
+			
+			.table tr td{
+				
+				text-align: center;
+				
+			}	
+			.table tr td :hover{				
+				animation: ok 50s ease infinite;
+			}
+			@keyframes ok{
+				0%{}
+				1%{transform: scale(0.8)}				
+			}
+			.table tr td img{
+				width: 200px;	
+							
+			}

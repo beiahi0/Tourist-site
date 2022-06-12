@@ -1,0 +1,117 @@
+body {
+	background-image: url(img/bg.png);
+}
+
+.div1 {
+
+	width: 100%;
+}
+
+.div2 {
+	max-width: 1280px;
+	width: 98%;
+	text-align: right;
+	line-height: 35px;
+	color: #999999;
+	font-size: 16px;
+	margin: auto;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.div2 li a:hover {
+	color: #81a849;
+}
+
+.div2 li {
+	display: inline;
+	text-decoration: none;
+	color: gray;
+}
+
+.div2 li a {
+	color: gray;
+}
+
+.div2 ul {
+	margin-top: 5px;
+}
+
+#syzz {
+	color: #81a849;
+}
+
+
+.div3 {
+	max-width: 1240px;
+	width: 100%;
+	margin: auto;
+}
+
+.div3-1 {
+	text-align: center;
+	margin: 60px auto 40px;
+}
+
+.span1>a {
+	font-size: 35px;
+	font-family: fixedsys;
+	color: #81a849;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.span1>a:hover{
+	color: #81a849;
+}
+
+.span2 {
+	font-family: arial;
+	color: #b2b2b2;
+	font-size: 12px;
+}
+
+.div3-2 {
+	width: 100%;
+	border-top: 1px solid #cccccc;
+	border-bottom: 1px solid #cccccc;
+}
+
+.归园田居 {
+	width: 100%;
+	text-align: center;
+	margin: 30px auto;
+	color: #666666;
+	font-size: 16px;
+	line-height: 26px;
+}
+
+.span3 {
+	font-size: 22px;
+}
+
+.span4 {
+	margin-bottom: 30px;
+	display: inline-block;
+}
+
+.div3 .div3-3 .中西套房 {
+	font-size: 27px;
+	color: #666;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+}
+
+
+
+
+.item a {
+	list-style: none;
+}
+
+li {
+	list-style: none;
+}
+

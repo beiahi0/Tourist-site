@@ -1,0 +1,168 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.banner .container-fluid img {
+    width: 100%;
+    /* width: 100px !important; */
+}
+
+.head_bar .container {
+    height: 35px;
+    text-align: right;
+    line-height: 35px;
+    color: #999;
+}
+
+.head_bar .container a {
+    color: #999;
+}
+
+.active {
+    color: #81a849;
+}
+
+.xwdt .tab_list {
+    /* display: inline-block; */
+    height: 70px;
+    background: url(../images/xie_xian.png) repeat-x bottom;
+}
+
+.xwdt .tab_list a {
+    display: inline-block;
+    font-size: 14px;
+    color: #666;
+    line-height: 35px;
+}
+
+.xwdt .tab_list a:hover {
+    background: url(../images/a_active.png) no-repeat bottom;
+}
+
+a:hover {
+    text-decoration: none !important;
+
+}
+
+.current {
+    background: url(../images/a_active.png) no-repeat bottom;
+}
+
+.item {
+    display: none;
+}
+
+.xwdt .tab_con .row {
+    padding: 30px 0;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.xwdt .tab_con .row:hover {
+    cursor: pointer;
+}
+
+.xwdt .tab_con .row:hover h4 {
+    color: #81a849;
+}
+
+.xwdt .tab_con .row:hover img {
+    width: 98%;
+    height: 98%;
+}
+
+.news_mid {
+    border-right: 1px solid #ccc;
+}
+
+.tab_con h4 {
+    margin-bottom: 15px;
+    font-weight: 700;
+    color: #4c4c4c;
+}
+
+.tab_con p {
+    font-size: 14px;
+    color: #666;
+    font-family: '微软雅黑';
+    line-height: 24px;
+}
+
+.xwdt .news_right {
+    padding-left: 100px;
+    text-align: left;
+    /* height: 100%; */
+}
+
+.news_right span {
+    font-size: 42px;
+    color: #e0e0e0;
+}
+
+.news_right .time {
+    font-size: 18px;
+    color: #e4e4e2;
+
+}
+
+.xwdt nav ul li a {
+    color: #666;
+}
+
+.xwdt nav ul li a:hover {
+    color: #fff !important;
+    background-color: #81a849 !important;
+
+}
+.xwdt .tab_2 .news_right {
+    /* padding-left: 0px; */
+}
+footer {
+    /* margin: 50px 0; */
+    padding-top: 50px;
+    /* margin-bottom: 40px; */
+    /* padding-bottom: 50px; */
+    background: url(../images/fonter_bg.png);
+}
+
+footer .container {
+    padding: 50px 0;
+    background: none;
+    background-color: #fff;
+}
+
+footer {
+    margin: auto;
+}
+
+footer .col-md-1 {
+    padding-left: 20px;
+    background: url(../images/nav_r.png) no-repeat right;
+}
+
+footer .col-md-1 a {
+    color: #666;
+}
+
+footer .col-md-1 a:hover {
+    color: #81a849;
+    text-decoration: none;
+}
+
+footer .lian p {
+    text-align: center;
+}
+
+footer .lian {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #999;
+}
+
+.copy {
+    margin: 10px 0;
+    text-align: center;
+    color: #999;
+
+}

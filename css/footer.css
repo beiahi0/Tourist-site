@@ -1,0 +1,50 @@
+/* footer */
+footer {
+    /* margin: 50px 0; */
+    padding-top: 50px;
+    /* margin-bottom: 40px; */
+    /* padding-bottom: 50px; */
+    background: url(../images/fonter_bg.png);
+}
+
+footer .container {
+    padding: 50px 0;
+    background: none;
+    background-color: #fff;
+}
+
+footer {
+    margin: auto;
+}
+
+footer .col-md-1 {
+    padding-left: 20px;
+    background: url(../images/nav_r.png) no-repeat right;
+}
+
+footer .col-md-1 a {
+    color: #666;
+}
+
+footer .col-md-1 a:hover {
+    color: #81a849;
+    text-decoration: none;
+}
+
+footer .lian p {
+    text-align: center;
+}
+
+footer .lian {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #999;
+}
+
+.copy {
+    margin: 10px 0;
+    text-align: center;
+    color: #999;
+
+}

@@ -1,0 +1,240 @@
+.reservation{
+    position: absolute;
+    top: 96px;
+    left: 1097px;
+    width: 400px;
+    height: 694px;
+    opacity: 0.85;
+    background-image: url(../img/OIP-C.jpg);
+}
+.gh{
+    width: 100%;
+    height: 694px;
+    background-image: url(../img/51608570c44afe4.jpg);
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    animation-name: luck;
+    animation-direction: alternate;
+}
+.gh>.reservation>div>input{
+    background-color: aquamarine;
+}
+@keyframes luck {
+    from{
+        background-image: url(../img/51608570c44afe4.jpg);
+    }
+    to{
+        background-image: url(../img/780.jpg);
+    }
+}
+.tyb1{
+    width: 1200px;
+    height: 405px;
+    margin-left: 159px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.tyb2{
+    width: 1200px;
+    height: 405px;
+    margin-left: 159px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.tgb1{
+    position: relative;
+    height: 400px;
+    width: 290px;
+    perspective: 1000px;
+    transform-style: preserve-3d;
+}
+.tgb2{
+    position: relative;
+    height: 400px;
+    width: 290px;
+    perspective: 1000px;
+    transform-style: preserve-3d;
+}
+.tgb3{
+    position: relative;
+    height: 400px;
+    width: 290px;
+    perspective: 1000px;
+    transform-style: preserve-3d;
+}
+.tgb4{
+    position: relative;
+    height: 400px;
+    width: 290px;
+    perspective: 1000px;
+    transform-style: preserve-3d;
+}
+
+.tgb5{
+    position: relative;
+    height: 400px;
+    width: 290px;
+    perspective: 1000px;
+    transform-style: preserve-3d;
+}
+.tgb6{
+    position: relative;
+    height: 400px;
+    width: 290px;
+    perspective: 1000px;
+    transform-style: preserve-3d;
+}
+.tgb7{
+    position: relative;
+    height: 400px;
+    width: 290px;
+    perspective: 1000px;
+    transform-style: preserve-3d;
+}
+.tgb8{
+    position: relative;
+    height: 400px;
+    width: 290px;
+    perspective: 1000px;
+    transform-style: preserve-3d;
+}
+.front, .back{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    perspective: 1000px;
+    transform-style: preserve-3d;
+    backface-visibility: hidden;
+    transition: .7s ease-in-out;
+}
+.tgb1 .front{
+    background-image: url(../img/OIP-C.jpg);
+}
+.tgb1 .back{
+    background-image: url(../img/8296.jpg_wh860.jpg);
+    transform: rotateY(180deg);
+}
+.tgb1:hover .front{
+    transform: rotateY(-180deg);
+}
+.tgb1:hover .back{
+    transform: rotateY(0deg);
+}
+
+
+.tgb2 .front{
+    background-image: url(../img/1.jpg);
+}
+.tgb2 .back{
+    background-image: url(../img/下载.jpg);
+    transform: rotateY(180deg);
+}
+.tgb2:hover .front{
+    transform: rotateY(-180deg);
+}
+.tgb2:hover .back{
+    transform: rotateY(0deg);
+}
+
+
+.tgb3 .front{
+    background-image: url(../img/bj.jpg);
+}
+.tgb3 .back{
+    background-image: url(../img/changcheng.jpg);
+    transform: rotateY(180deg);
+}
+.tgb3:hover .front{
+    transform: rotateY(-180deg);
+}
+.tgb3:hover .back{
+    transform: rotateY(0deg);
+}
+
+
+.tgb4 .front{
+    background-image: url(../img/bj1.jpg);
+}
+.tgb4 .back{
+    background-image: url(../img/t.jpg);
+    transform: rotateY(180deg);
+}
+.tgb4:hover .front{
+    transform: rotateY(-180deg);
+}
+.tgb4:hover .back{
+    transform: rotateY(0deg);
+}
+
+
+.tgb5 .front{
+    background-image: url(../img/xz1.jpg);
+}
+.tgb5 .back{
+    background-image: url(../img/t1.jpg);
+    transform: rotateY(180deg);
+}
+.tgb5:hover .front{
+    transform: rotateY(-180deg);
+}
+.tgb5:hover .back{
+    transform: rotateY(0deg);
+}
+
+
+.tgb6 .front{
+    background-image: url(../img/xz2.jpg);
+}
+.tgb6 .back{
+    background-image: url(../img/t2.jpg);
+    transform: rotateY(180deg);
+}
+.tgb6:hover .front{
+    transform: rotateY(-180deg);
+}
+.tgb6:hover .back{
+    transform: rotateY(0deg);
+}
+
+
+.tgb7 .front{
+    background-image: url(../img/xz3.jpg);
+}
+.tgb7 .back{
+    background-image: url(../img/t3.jpg);
+    transform: rotateY(180deg);
+}
+.tgb7:hover .front{
+    transform: rotateY(-180deg);
+}
+.tgb7:hover .back{
+    transform: rotateY(0deg);
+}
+
+
+.tgb8 .front{
+    background-image: url(../img/xz4.jpg);
+}
+.tgb8 .back{
+    background-image: url(../img/t4.jpg);
+    transform: rotateY(180deg);
+}
+.tgb8:hover .front{
+    transform: rotateY(-180deg);
+}
+.tgb8:hover .back{
+    transform: rotateY(0deg);
+}
+.contents{
+    transform: translateZ(60px);
+}
